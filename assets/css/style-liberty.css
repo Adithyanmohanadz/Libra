@@ -7988,6 +7988,16 @@ fieldset:disabled .btn {
   padding: 3rem !important
 }
 
+.p-6 {
+  padding: 4rem !important
+}
+.p-7 {
+  padding: 5rem !important
+}
+.p-8 {
+  padding: 6rem !important
+}
+
 .px-0 {
   padding-right: 0 !important;
   padding-left: 0 !important
@@ -19164,7 +19174,7 @@ form.search-box {
 }
 
 .banner-19 .banner-layer {
-  background: url(../images/img/banner1.jpg) no-repeat center;
+  background: url(../images/img/banner3.jpg) no-repeat center;
   -ms-background-size: cover;
   background-size: cover;
   z-index: 0;
@@ -20220,7 +20230,7 @@ ul.blog-meta li {
 
 /* footer block */
 .w3l-footer-29-main {
-  background: #26243c;
+  background: var(--bg-color);
 }
 
 .w3l-footer-29-main h6.footer-title-29 {
@@ -20244,7 +20254,7 @@ ul.blog-meta li {
 .w3l-footer-29-main .footer-list-29 p a,
 .w3l-footer-29-main .footer-list-29 p {
   font-size: 16px;
-  color: #ababab;
+  color: var(--secondary-color);
   padding-bottom: 4px;
 }
 
@@ -20255,7 +20265,7 @@ ul.blog-meta li {
 
 .w3l-footer-29-main .footer-list-29 ul li a:hover,
 .w3l-footer-29-main .footer-list-29 p a:hover {
-  color: #fff;
+  color: var(--primary-color);
 }
 
 .w3l-footer-29-main .footer-list-29 ul li:last-child a,
