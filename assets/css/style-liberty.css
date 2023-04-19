@@ -18467,7 +18467,8 @@ header.nav-fixed {
   padding: 0px;
   border-bottom: none;
   z-index: 9 !important;
-  background: #26243c;
+  /* background: #26243c; */
+  background: #fff;
   box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.05);
   height: 80px;
   /* for z-index:10 to display gallery popup */
@@ -18517,7 +18518,8 @@ nav ul li a:hover {
 
 .nav-fixed .navbar-expand-lg .navbar-nav .nav-item.active .nav-link,
 .nav-fixed .navbar-expand-lg .navbar-nav .nav-link:hover {
-  color: #fff;
+  /* color: #fff; */
+  
 }
 
 /* .navbar .search-right {
