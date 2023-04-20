@@ -21783,7 +21783,8 @@ div#small-dialog iframe {
   /* max-width: 570px; */
   margin: auto;
   position: relative;
-  padding-bottom: 10px; }
+  padding-bottom: 10px; 
+}
 
 .title-big:after {
   content: '';
@@ -21812,9 +21813,10 @@ div#small-dialog iframe {
       font-size: 28px !important;
       line-height: 35px; } }
 
+
       /* navbar image  */
 .navbar-brand .nav-log-dark{
-  /* display: none; */
+  display: block;
   
 
 }
