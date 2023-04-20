@@ -18289,7 +18289,7 @@ input:checked+.mode-container i.gg-moon {
 
 .gl-top-header .top-headers li a,
 .gl-top-header .top-headers li {
-  color: #aab2b9;
+  color: #7e7474;
   font-size: 15px;
   font-weight: 500;
   font-family: 'Montserrat', sans-serif;
@@ -18301,7 +18301,7 @@ input:checked+.mode-container i.gg-moon {
 
 .gl-top-header .top-headers li i {
   margin-right: 8px;
-  color: #ababab;
+  color: #7e7474;
 }
 
 .gl-top-header .top-headers li {
@@ -18509,7 +18509,7 @@ nav ul li a:hover {
 }
 
 .nav-fixed .navbar-expand-lg .navbar-nav .nav-link {
-  color: #aab2b9;
+  color: #7e7474;
 }
 
 .nav-fixed .navbar-expand-lg .navbar-nav .nav-link:hover {
@@ -21904,5 +21904,9 @@ a.blog-image .iconic-plus i {
 
 /* //home services block */
 
-
+@media (max-width:800px) {
+    .br-none{
+      display: none;
+    }
+}
 
